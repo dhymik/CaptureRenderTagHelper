@@ -11,6 +11,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore, taghelpers, razor, cshtml</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	<PackageReleaseNotes>Fixed no-duplicate bug in Net Core 7</PackageReleaseNotes>
+    <Company />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
